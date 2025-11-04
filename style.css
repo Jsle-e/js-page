@@ -819,4 +819,64 @@ body {
     .section-title {
         font-size: 1.8rem;
     }
+
+    @media (max-width: 768px) {
+  .modal-content.winner-content {
+    width: 90%;
+    padding: 1.5rem 1rem;
+  }
+
+  .congratulations {
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .prize-amount {
+    font-size: 2.2rem;
+    margin: 0.5rem 0;
+  }
+
+  .winner-subtitle {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .sparkles {
+    font-size: 1.2rem;
+  }
+
+  .claim-button {
+    font-size: 1rem;
+    padding: 0.8rem 1.2rem;
+    margin-top: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .modal-content.winner-content {
+    width: 95%;
+    padding: 1rem;
+  }
+
+  .congratulations {
+    font-size: 1.4rem;
+  }
+
+  .prize-amount {
+    font-size: 1.8rem;
+  }
+
+  .winner-subtitle {
+    font-size: 0.9rem;
+  }
+
+  .sparkles {
+    font-size: 1rem;
+  }
+
+  .claim-button {
+    font-size: 0.9rem;
+    padding: 0.6rem 1rem;
+  }
+}
 }
